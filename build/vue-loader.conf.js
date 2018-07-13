@@ -5,7 +5,7 @@ const isProduction = process.env.NODE_ENV === 'production'
 const sourceMapEnabled = isProduction
   ? config.build.productionSourceMap
   : config.dev.cssSourceMap
-
+/*在浏览器端调试代码时我们看到的是我们写的代码，是将映射成我们的代码*/
 module.exports = {
   loaders: utils.cssLoaders({
     sourceMap: sourceMapEnabled,
