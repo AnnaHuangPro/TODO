@@ -44,7 +44,7 @@
             Store.save(todos);
           },
           deep:true
-          //深度watcher 监控
+          //深度watcher 监控数据内部的变化
         }
       },
       computed:{
